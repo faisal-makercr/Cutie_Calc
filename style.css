@@ -3,6 +3,8 @@
     padding:0px;
     box-sizing: Border-box;
     font-family: 'Ariel',sans-serif;
+
+    /*This is for index.html page or you can simply say for home page */
 }
 .navbar{
     background-color:lightcoral;
@@ -60,4 +62,46 @@
 }
 .sec .btn:hover{
     background-color:#d29163;
+}
+
+/*This is for 2nd page */
+.page2{
+    background-color:lightcoral;
+    padding:18px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.page2 ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.page2 ul li a{
+    color:aliceblue;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3sec ease;
+}
+.page2 ul li a:hover{
+    color:antiquewhite;
+}
+
+.sec2 {
+    background-color:rgb(216, 97, 137);
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+}
+.sec2 cal1 {
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align:center;
+    flex-direction:column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
