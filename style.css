@@ -46,8 +46,18 @@
     font-size:20px;
     margin: 5px 0px;
 }
-.sec a{
+.sec .btn{
     display:flex;
-    padding: 12px 20px;
-    background-color:#e7a373;
+    padding:12px 20px;
+    background-color: #e7a373;
+    color:#fff;
+    font-size:18px;
+    letter-spacing:1px;
+    text-decoration:none;
+    border-radius:5px;
+    transition: 0.3sec ease;
+    
+}
+.sec .btn:hover{
+    background-color:#d29163;
 }
