@@ -184,3 +184,38 @@ input::placeholder{
     border-radius:5px;
     color: #333;
 }
+
+.maths-x-section {
+    margin-top:35px;
+    padding-top:20px;
+    border-top:1px;
+}
+.maths-x-section h2{
+    font-size:18px;
+    color:#ffffff;
+    margin-bottom:10px;
+}
+#maths-x-input{
+    width:100%;
+    font-size:16px;
+    padding:8px;
+    border-radius: 5px;
+    border:1px;
+    background: transparent;
+    color:#ffffff;
+}
+#maths-x-btn{
+    background-color:#d29163;
+    border: none;
+    padding:6px 12px;
+    cursor:pointer;
+    color:#ffffff;
+    margin-top:8px;
+}
+#maths-x-output{
+    margin-top:12px;
+    font-size:18px;
+    font-weight:bold;
+    color:lightblue;
+    min-height:24px;
+}

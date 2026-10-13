@@ -40,3 +40,27 @@ if (userButton && secretAnswer){
     userButton.style.display='none';
 });
 }
+
+
+const xInput = document.getElementById('maths-x-input');
+const xBtn = document.getElementById('maths-x-btn');
+const xOutput = document.getElementById('maths-x-output');
+
+if(xBtn && xInput && xOutput) {
+    xBtn.addEventListener('click', function(){
+        let userText=xInput.value;
+        xOutput.innerHTML = "";
+        xInput.value ="";
+        let index=0;
+        let typingTimer = setInterval(function(){
+            if (index<userText.length)
+            {
+                xOutput.innerHTML += userText.charAt(index);
+                index++;
+            }
+            else {
+                clearInterval(typingTimer);
+            }
+        }, 50);
+    });
+}
