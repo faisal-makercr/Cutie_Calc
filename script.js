@@ -1,16 +1,14 @@
-let input = document.getElementById('inputBOx');
-let aribtns = document.querySelectorAll('aribtns');
-let btn1 = document.querySelectorAll('btn1');
-let equalbtn = document.querySelectorAll('equalbtn');
+let input= document.getElementById('inputBox');
+if(input){
 
-
-const userButton = document.getElementById('ask-button');
-const secretAnswer = document.getElementById('answer-box');
+let buttons = document.querySelectorAll('.aribtns, .btn1, .equalbtn');
 
 let string ="";
 let arr = Array.from(buttons);
+
 arr.forEach(button => {
-    button.addEventListener('click',(e) =>{
+    button.addEventListener('click',(e) => {
+        let buttonText = e.target.innerHTML.trim();
         if(e.target.innerHTML == '=')
         {
             string = eval(string);
@@ -22,15 +20,23 @@ arr.forEach(button => {
         }
         else if (e.target.innerHTML == 'DEL'){
             string = string.substring(0, string.length-1);
+            input.value = string;
         }
         else {
-        string += e.target.innerHTML
+        string += e.target.innerHTML;
         input.value = string;
         }
-    })
-})
+    });
+});
+}
 
-userButton.Button.addEventListener('click', function(){
+
+const userButton = document.getElementById('ask-button');
+const secretAnswer = document.getElementById('answer-box');
+if (userButton && secretAnswer){
+
+    userButton.addEventListener('click', function(){
     secretAnswer.style.display='block';
     userButton.style.display='none';
-})
+});
+}

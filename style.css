@@ -82,7 +82,7 @@
     text-decoration: underline;
     font-size: 20px;
     font-weight: bold;
-    transition: 0.3sec ease;
+    transition: 0.3s ease;
 }
 .page2 ul li a:hover{
     color:antiquewhite;
@@ -103,7 +103,7 @@
     border: 1px solid #f2be9a;
     border-radius: 10px;
     padding:20px;
-    box-shadow: 0p 3px 15px rgba(238, 200, 88, 0.637);
+    box-shadow: 0px 3px 15px rgba(238, 200, 88, 0.637);
 }
 input {
     width:100%;
@@ -164,14 +164,17 @@ input::placeholder{
     padding: 28px;
     background:transparent;
     border-radius:10px;
+    width:320px;
+    z-index: 10;
 }
 #ask-button {
     background-color:#d29163;
     border:none;
     padding:8px 12px;
     font-size:18px;
-    border: radius 5px;
+    border-radius: 5px;
     cursor:pointer;
+    color: #ffffff;
 }
 #answer-box {
     display:none;
@@ -179,4 +182,5 @@ input::placeholder{
     padding:10px;
     background-color:lightblue;
     border-radius:5px;
+    color: #333;
 }
