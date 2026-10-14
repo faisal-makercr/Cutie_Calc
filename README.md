@@ -18,11 +18,11 @@ the 2nd one is if he/she wants he can write something about maths x just a fun e
 3. Javascript
 
 ## This is how my website Looks:-
-![Homepage Image](Cutie_Calc/Screenshot 2026-10-14 044425.png)
-  Homepage.
+![Home Page](<Screenshot 2026-10-14 044425.png>)
+Homepage
 
-![Calc page Image](Cutie_Calc/Screenshot 2026-10-14 044449.png)
-  Calc Page.
+![Calc Page](<Screenshot 2026-10-14 044449.png>)
+Calc page
 
 ## My experience about this doing this project:-
 This project thought me so many things I learned different features and funtions of all the three languages,<br>
@@ -32,7 +32,3 @@ sometimes what I wanted the web to look like it was not showing in that way so I
 The most difficult part for me was javascript like giving logic to all the buttons, giving setInterval part in maths x section, and mainly I was stuck with the buttons as I have made classes different buttons.<br>
 And I will say it took a lot of time for me to do this project because I am still learning and playing with web development and
 I hope to get better and better with time. 
-
-
-
-[def]: https://github.com/faisal-makercr/Cutie_Calc.git
